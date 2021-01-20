@@ -9,6 +9,8 @@ The occurrence core for metabarcoding data:
 | BasisOfRecord |  MaterialSample | Required |
 | eventDate | 2020-01-05 |   Required |
 | [scientificName](#scientificName) |  Gadus morhua L. 1758 |    Required |
+| [scientificNameID](#scientificNameID) | urn:lsid:marinespecies.org:taxname:126436 | Required |
+| occurrenceStatus | present | Required |
 | eventID |       |   Highly recommended|
 | recordedBy | "Jane Smith" |   Highly recommended | 
 | organismQuantity | 33 |   Highly Recommended |
@@ -62,6 +64,9 @@ The occurrence core for metabarcoding data:
 ### scientificName
 
 Latin name of the closest known taxon (species or higher). GBIF accepts also an OTU identifier from BOLD or UNITE. At the moment OBIS is not yet connected to BOLD, but this is planned for the near future. It is recommended to use the highest taxonomy possible, and record the sequence for detailed classifications and searches.
+
+### scientificNameID
+If no taxonomic ranks (no kingdom) are available, and therefore no ID's possible, it is possible for now to add 'biota'. We are not sure yet how this will work with GBIF.
 
 ### taxonID
 For eDNA data, it is recommended to use an MD5 hash of the sequence and prepend it with “ASV:”
