@@ -1,3 +1,10 @@
+
+
+Welcome to the Genetic Data Project team wiki!
+
+Here we will collect the guidelines and information on how genetic data will be published on OBIS.
+
+
 * [Home](https://github.com/iobis/Project-team-Genetic-Data/wiki)
 * [Introduction](https://github.com/iobis/Project-team-Genetic-Data/wiki/Introduction)
    * [Data formatting in OBIS](https://github.com/iobis/Project-team-Genetic-Data/wiki/Data-formatting-in-OBIS)
