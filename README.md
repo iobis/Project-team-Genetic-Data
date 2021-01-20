@@ -32,7 +32,7 @@ Part 2
 
 ## Questions and suggestions
 
-The most up-to-date guidelines will be collected in the wiki.
+The most up-to-date guidelines will be collected in the guidelines folder.
 Questions on specific issues encountered for datasets should be added to the issues tab.
 
 We are looking for any use-cases that could be used as examples for adding genetic data to OBIS!
