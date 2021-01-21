@@ -20,7 +20,7 @@ The occurrence core for metabarcoding data:
 | materialSampleID | e.g. biosample ID |   Highly Recommended |
 | decimalLatitude | 60.545207 |   Highly Recommended |
 | decimalLongitude | 24.174556 |   Highly Recommended |
-| [taxonID](#taxonID) | MD5 hash |   Highly Recommended (if no DNA sequence)|
+| [taxonID](#taxonID) | MD5 hash or OTU ID |   Highly Recommended (if no DNA sequence)|
 | kingdom | Animalia |   Highly Recommended |
 | phylum | Chordata |   Recommended|
 | class| Actinopterygii |   Recommended|
@@ -63,13 +63,13 @@ The occurrence core for metabarcoding data:
 
 ### scientificName
 
-Latin name of the closest known taxon (species or higher). GBIF accepts also an OTU identifier from BOLD or UNITE. At the moment OBIS is not yet connected to BOLD, but this is planned for the near future. It is recommended to use the highest taxonomy possible, and record the sequence for detailed classifications and searches.
+Latin name of the closest known taxon (species or higher). GBIF accepts also an OTU identifier from BOLD or UNITE. At the moment OBIS is not yet connected to BOLD, but this could be planned. It is recommended to use the highest taxonomy possible, and record the sequence for detailed classifications and searches.
 
 ### scientificNameID
-If no taxonomic ranks (no kingdom) are available, and therefore no ID's possible, it is possible for now to add 'biota'. We are not sure yet how this will work with GBIF.
+If no taxonomic ranks (no kingdom) are available, and therefore no ID's possible, it is possible for now to add the id for 'biota'. We are not sure yet how this will work with GBIF.
 
 ### taxonID
-For eDNA data, it is recommended to use an MD5 hash of the sequence and prepend it with “ASV:”
+For eDNA data, it is recommended to use an MD5 hash of the sequence and prepend it with “ASV:”. Here the OTU id of different reference databases can also be recorded. For example BOLD bin ids, or genbank ids. 
 
 ### associatedSequences
 
