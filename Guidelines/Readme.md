@@ -1,9 +1,12 @@
 
 
 Welcome to the Genetic Data Project team guidelines!
-Feel free to make changes/suggestions to these documents.
+Feel free to make suggestions to these documents.
 
 Here we will collect the guidelines and information on how genetic data will be published on OBIS.
+These guidelines are a work in progress. As they are being modified, and developed, it means that they may still change.
+Therefore datasets that are formatted based on these guidelines, may still need to be slightly modified and reformatted in the future.
+We recommend trying them out, but keeping this in mind! 
 
 * [Introduction](https://github.com/iobis/Project-team-Genetic-Data/blob/main/Guidelines/Introduction.md)
    * [Data formatting in OBIS](https://github.com/iobis/Project-team-Genetic-Data/Guidelines/Data-formatting-in-OBIS)
