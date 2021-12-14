@@ -35,7 +35,14 @@ Part 2
 The most up-to-date guidelines will be collected in the guidelines folder.
 Questions on specific issues encountered for datasets should be added to the issues tab.
 
-We are looking for any use-cases that could be used as examples for adding genetic data to OBIS!
+
+## Materials to help get started
+
+OBIS organized a webinar on genetic data, with an introduction to how OBIS is incorporating data, how genetic data can be accessed and a use case from the first eDNA dataset provided by OBIS-USA. The recording of the webinar can be watched [here](https://www.youtube.com/watch?v=KKh_Hd8zybs). 
+
+In addition, as the first use case: the data and python scripts used for formatting the first eDNA dataset are available [here](https://github.com/iobis/dataset-edna)!
+
+We are always also looking for more use-cases that could be used as examples for adding genetic data to OBIS.
 
 
 
